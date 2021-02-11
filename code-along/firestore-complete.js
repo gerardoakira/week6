@@ -1,5 +1,9 @@
 document.addEventListener('DOMContentLoaded', async function(event) {
   
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.bundle.js" 
+  integrity="sha512-zO8oeHCxetPn1Hd9PdDleg5Tw1bAaP0YmNvPY8CwcRyUk7d7/+nyElmFrB6f7vg4f7Fv4sui1mcep8RIEShczg==" 
+  crossorigin="anonymous"></script>
+  
   let db = firebase.firestore()
 
   // Step 1: Make the world's tiniest to-do app
